@@ -1,0 +1,20 @@
+{
+	"name": "cable_robot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"cad": "browserify ./CAD/main.jscad.es6 --standalone window -o ./CAD/main.jscad -t [ babelify --presets [ es2015 ] ]",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gunderson/cable_robot.git"
+	},
+	"author": "Patrick Gunderson",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/gunderson/cable_robot/issues"
+	},
+	"homepage": "https://github.com/gunderson/cable_robot#readme"
+}
